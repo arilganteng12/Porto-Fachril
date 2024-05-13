@@ -1,0 +1,99 @@
+body{
+    background-color:  rgb(235, 233, 233);
+}
+.baru{
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar {
+    background-color: #333; /* Warna latar belakang */
+    padding: 10px; /* Padding untuk memberikan ruang */
+    
+}
+.navbar ul {
+    list-style-type: none; /* Hilangkan bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Membuat item teratur dalam baris */
+    justify-content: space-around; /* Spasi di antara item */
+}
+.navbar ul li {
+    display: flex;
+    margin: 0; /* Hilangkan margin */
+}
+.navbar ul li a {
+    text-decoration: none; /* Hilangkan garis bawah pada tautan */
+    color: white; /* Warna teks putih */
+    padding: 10px 20px; /* Padding pada tautan */
+    transition: background-color 0.3s ease;
+    
+}
+.navbar ul li a:hover {
+    background-color: #575757; /* Efek hover */
+}/* Tambahkan gaya responsif */
+@media (max-width: 600px) {
+    .navbar ul {
+        flex-direction: column; /* Mengubah orientasi menjadi kolom */
+        text-align: center;
+    }
+}
+.poto{
+    border: 2px solid #333;
+    border-radius: 50vh;
+    margin-left: 120vh;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+    width: 50vh;
+}
+.hai{
+    position: absolute;
+    top: 40%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.m{
+    background-color: #575757;
+    padding-left: 56em;
+}
+p{
+    font-family: cursive;
+}
+.flexbox {
+    display: flex; /* Menggunakan Flexbox untuk membuat dua kolom */
+    justify-content: space-between; /* Memberikan spasi di antara kolom */
+    background-color: white ;
+    min-height: 50vh;
+    
+}
+.flex {
+    width: 100%; /* Mengatur lebar setiap kolom */
+    padding: 60px; /* Menambahkan padding untuk memberikan ruang */
+}
+.fotoygterbagidua{
+    display: flex; /* Menggunakan Flexbox */
+    justify-content: space-between; /* Memberikan spasi di antara elemen */
+    padding: 20px; /* Menambahkan padding untuk memberikan ruang */
+}
+.grid-container {
+    display: grid; /* Pakai Grid */
+    grid-template-columns: repeat(3, 1fr); /* Bikin 3 kolom */
+    gap: 20px; /* Kasih jarak antar foto */
+    padding: 20px;
+    height: 10px;
+    margin-bottom: 40vh;
+}
+.grid-item {
+    border: 2px solid #000; /* Biar ada outline-nya */
+    width: 57vh;
+    display: flex;
+    transition: 0.3s ease ;
+    border-radius: 10px;
+}
+.grid-item:hover{
+    transform: scale(1.5);
+}
+.flex2{
+    padding: 120px;
+}
+.kontak{
+    background-color: #333;
+    color: white;
+}
